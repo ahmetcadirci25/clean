@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+$roboto: 'Roboto', sans-serif;
+
+$siyah: #000000;
+$beyaz: #ffffff;
+
+$koyugri: #303030;
+$gri: #5a5a5a;
+$acikgri: #a7a7a7;
+$acikmavi: #6995a9;
+$beyazduman: #f3f3f3;
+$borderrenk: #e4e4e4;
+$sociallink: #7f7f7f;
+$footerrenk: #4f4f4f;
+
+body{
+	font-family: $roboto;
+	color: $gri;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+	padding:40px 0;
+	background-color: $beyaz;
+
+	.navbar{
+		margin-bottom: 0;
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+	}
+
+    .top-nav-collapse {
+        background-color: $beyaz;
+    }
+
+	.nav > li > a {
+		color: $acikgri;
+		text-transform: uppercase;
+		padding: 0 50px;
+		line-height: 50px;
+
+		&:focus, &:hover{
+			background-color: transparent;
+			color: $gri;
+		}
+	}
+
+}
+
+
+.hero-section {
+    padding: 100px 0;
+    text-align: center;
+    background: #fff;
+    background: url('../img/hero-bg.png');
+    background-size: cover;
+
+    h1{
+		font-size: 50px;
+	    text-transform: uppercase;
+	    font-weight: 800;
+	    padding: 0 20vw;
+	    word-spacing: 10px;
+	    color: $koyugri;
+    }
+
+    p{
+    	font-family: Georgia;
+	    font-style: italic;
+	    font-size: 18px;
+	    margin-bottom: 50px;
+    }
+
+}
+
+section{
+
+    padding: 50px 0;
+
+    .title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: $koyugri;
+        text-align: center;
+
+        &:after{
+            content: "";
+            position: absolute;
+            left: 50%;
+            margin-left: -120px;
+            bottom: 0;
+            width: 240px;
+            border-bottom: 5px solid $koyugri; 
+        }    
+    }
+
+    .desc{
+        text-align: center;
+        font-size: 16px;
+        max-width: 500px;
+        margin: 40px auto 40px auto;
+    }
+}
+
+
+.featured-section {
+    min-height: 100%;
+
+    
+    .work{
+        margin: 0 0 30px 0;
+
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+.team-section {
+    min-height: 100%;
+
+    .team {
+      background-color: $beyaz;
+      box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+      min-height: 210px;
+      text-align: center;
+      padding: 20px 0;
+      margin-bottom: 20px;
+
+      &:hover{
+        box-shadow: 0px 2px 4px 0px $acikgri;
+        -webkit-transition: box-shadow .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: box-shadow .5s ease-in-out,padding .5s ease-in-out;
+        transition: box-shadow .5s ease-in-out,padding .5s ease-in-out;
+      }
+
+      h3{
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      p{
+        font-family: Georgia;
+        font-style: italic;
+      }
+
+      .img-circle {
+          border: 3px solid $beyaz;
+          box-shadow: 0px 2px 6px 0px rgba(0, 1, 1, 0.24);
+        }
+
+        .social-media{
+            margin-top: 20px;
+
+            a{
+                color: $sociallink;
+                font-size: 18px;
+                margin-right: 10px;
+
+                &:last-child{
+                    margin-right: 0;
+                }
+            }
+        }
+
+    }
+
+    
+
+}
+
+.contact-section {
+    min-height: 100%;
+
+    p{
+        font-size: 16px;
+    }
+}
+
+.whitesmoke{
+    background-color: $beyazduman;
+    border-top: 1px solid $borderrenk;
+}
+
+
+.footer{
+    background-color: $footerrenk;
+    
+    p{
+        color: $acikgri;
+        margin: 20px 0 20px 0;
+    }
+
+}
+
+.box-shadow{
+    border: 3px solid $beyaz;
+    box-shadow: 0px 2px 6px 0px rgba(0, 1, 1, 0.24);
+}
+
+
+.maps{
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    .textarea{ 
+        min-height:285px;
+        resize:none;
+    }
+    .form-control{ 
+        box-shadow:none;
+        border-color:#eee;
+        height: 60px;
+        border-radius:0;
+        font-family: Georgia;
+        font-style: italic;
+        font-size: 18px;
+        border: 1px solid $borderrenk;
+    }
+
+    .form-control:focus{ 
+        box-shadow:none;
+        border-color:$acikgri;
+    }
+    .main-btn{ 
+        background: $acikgri;
+        border-color: $acikgri;
+        color:#fff;
+    }
+    .main-btn{
+        background-color: $acikmavi;
+        color: $beyaz;
+        height: 60px;
+        border-radius: 0;
+        font-size: 16px;
+        border: 3px solid $beyaz;
+        box-shadow: 0px 2px 6px 0px rgba(0, 1, 1, 0.24);
+        font-weight: 500;
+
+        &:hover{ 
+            background-color: $beyaz;
+            color: $acikmavi;
+            -webkit-transition: background-color .5s ease-in-out,padding .5s ease-in-out;
+            -moz-transition: background-color .5s ease-in-out,padding .5s ease-in-out;
+            transition: background-color .5s ease-in-out,padding .5s ease-in-out;
+        }
+    }
+
+}
+
+
+.navbar-toggle {
+    .icon-bar {
+        background-color: $gri;
+    }
+}
+
+
+
+
+  /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .footer {
+            .text-right{
+                text-align: left;
+            }
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .menunav{
+            background-color: $beyaz;
+            color: $gri;
+        }
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
+
+
