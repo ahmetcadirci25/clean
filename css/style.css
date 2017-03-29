@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+﻿@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 body {
   font-family: "Roboto", sans-serif;
   color: #5a5a5a;
@@ -13,7 +13,8 @@ header {
     padding: 15px 0;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-    transition: background .5s ease-in-out,padding .5s ease-in-out; }
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    background-color: #ffffff; }
   header .top-nav-collapse {
     background-color: #ffffff; }
   header .nav > li > a {
@@ -188,6 +189,8 @@ section {
 @media only screen and (max-width: 480px) {
   .menunav {
     background-color: #ffffff;
-    color: #5a5a5a; } }
+    color: #5a5a5a; }
+  .hero-section h1 {
+    font-size: 25px; } }
 
 /* Custom, iPhone Retina */
