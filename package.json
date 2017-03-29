@@ -1,0 +1,33 @@
+{
+  "name": "clean",
+  "version": "1.0.1",
+  "description": "clean bootstrap html tema",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetcadirci25/clean.git"
+  },
+  "keywords": [
+    "html",
+    "sass",
+    "theme",
+    "template",
+    "bootstrap",
+    "html5",
+    "csss"
+  ],
+  "author": "ahmetcadirci25",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ahmetcadirci25/clean/issues"
+  },
+  "homepage": "https://github.com/ahmetcadirci25/clean#readme"
+}
