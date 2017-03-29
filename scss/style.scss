@@ -31,6 +31,7 @@ header{
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: $beyaz;
 	}
 
     .top-nav-collapse {
@@ -321,6 +322,12 @@ section{
         .menunav{
             background-color: $beyaz;
             color: $gri;
+        }
+
+        .hero-section {
+            h1 {
+                font-size: 25px;
+            }
         }
 
     }
