@@ -131,6 +131,7 @@ section {
 .contact-form .textarea {
   min-height: 285px;
   resize: none; }
+
 .contact-form .form-control {
   box-shadow: none;
   border-color: #eee;
@@ -140,13 +141,16 @@ section {
   font-style: italic;
   font-size: 18px;
   border: 1px solid #e4e4e4; }
+
 .contact-form .form-control:focus {
   box-shadow: none;
   border-color: #a7a7a7; }
+
 .contact-form .main-btn {
   background: #a7a7a7;
   border-color: #a7a7a7;
   color: #fff; }
+
 .contact-form .main-btn {
   background-color: #6995a9;
   color: #ffffff;
@@ -179,11 +183,13 @@ section {
 @media only screen and (max-width: 768px) {
   .footer .text-right {
     text-align: left; } }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .menunav {
     background-color: #ffffff;
-    color: #5a5a5a; } }
-/* Custom, iPhone Retina */
+    color: #5a5a5a; }
+  .hero-section h1 {
+    font-size: 25px; } }
 
-/*# sourceMappingURL=style.css.map */
+/* Custom, iPhone Retina */
