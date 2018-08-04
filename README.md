@@ -1,12 +1,12 @@
-![Clean Masaüstü Önizleme](/psd/desktop.png) 
-
 # Clean
 
-Clean Bootstrap HTML Tema
+![Clean Masaüstü Önizleme](/psd/desktop.png) 
+
+### Clean Bootstrap HTML Tema
 
 **Önizleme**
 
-[http://ahmetcadirci.com.tr/clean](http://ahmetcadirci.com.tr/clean)
+[☛ http://ahmetcadirci.com.tr/clean](http://ahmetcadirci.com.tr/clean)
 
 [🔽 Ücretsiz İndir](https://github.com/ahmetcadirci25/clean/archive/gh-pages.zip)
 
