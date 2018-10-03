@@ -6,7 +6,7 @@
 
 **Önizleme**
 
-[☛ http://ahmetcadirci.com.tr/clean](http://ahmetcadirci.com.tr/clean)
+[☛ http://ahmetcadirci.com.tr/clean](http://ahmetcadirci.com.tr/clean/?utm_source=github&utm_medium=readme&utm_campaign=clean)
 
 [🔽 Ücretsiz İndir](https://github.com/ahmetcadirci25/clean/archive/gh-pages.zip)
 
